@@ -29,7 +29,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapProjectEndpoints();
+//app.MapProjectEndpoints();
 //app.MapWorkTaskEndpoints(); WIP
 
 app.Run();
