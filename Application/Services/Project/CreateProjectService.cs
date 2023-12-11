@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 using project_manager.Application.Interfaces.Project;
-using task_manager_challenge.Infrastructure;
+using project_manager.Infrastructure;
 using Entities = project_manager.Domain.Entities;
 
 namespace project_manager.Application.Services.Project
