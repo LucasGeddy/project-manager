@@ -1,10 +1,7 @@
-using FluentValidation;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using project_manager.API.DI;
 using project_manager.API.RoutesMapping;
-using project_manager.Application.Interfaces.Project;
-using task_manager_challenge.Infrastructure;
+using project_manager.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 

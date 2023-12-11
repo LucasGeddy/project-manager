@@ -2,7 +2,7 @@
 using project_manager.Domain.Entities;
 using project_manager.Infrastructure.Entities;
 
-namespace task_manager_challenge.Infrastructure
+namespace project_manager.Infrastructure
 {
     public class TaskManagerDbContext(DbContextOptions<TaskManagerDbContext> options) : DbContext(options)
     {
